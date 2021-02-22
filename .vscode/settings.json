@@ -1,0 +1,36 @@
+{
+  "quokka.colors": {
+
+    "covered": "#62b455",
+    "errorPath": "#ffa0a0",
+    "errorSource": "#fe536a",
+    "notCovered": "#cccccc",
+    "partiallyCovered": "#d2a032"
+  },
+  "quokka.darkTheme.error.decorationAttachmentRenderOptions": {
+
+    "border": null,
+    "borderColor": null,
+    "fontStyle": null,
+    "fontWeight": null,
+    "textDecoration": null,
+    "color": "#fe536a",
+    "backgroundColor": null,
+    "margin": "1.2em",
+    "width": null,
+    "height": null
+  },
+  "quokka.darkTheme.log.decorationAttachmentRenderOptions": {
+
+    "border": null,
+    "borderColor": null,
+    "fontStyle": null,
+    "fontWeight": null,
+    "textDecoration": null,
+    "color": "white",
+    "backgroundColor": "deeppink",
+    "margin": "1.2em",
+    "width": null,
+    "height": null
+  }
+}
