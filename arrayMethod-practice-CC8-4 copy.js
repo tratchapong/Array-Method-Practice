@@ -683,14 +683,18 @@ const sales = [
 
   
 // 8. เรียงยอดขายของแต่ละรุ่นจากมากไปน้อย
-let sortTotal = (Object.values(sales.reduce( (a,c) => {
+// let sortTotal = (Object.values(sales.reduce( (a,c) => {
   
-  a[c.product.model] = {
-    modelName : c.product.model, 
-    unitPrice : Number(c.product.unitPrice), //find the way to update this value
-  }
-  return a
-}, {}))).sort( (a,b) =>  b.unitPrice - a.unitPrice)
+//   a[c.product.model] = {
+//     modelName : c.product.model, 
+//     unitPrice : Number(c.product.unitPrice), //find the way to update this value
+//   }
+//   return a
+// }, {}))).sort( (a,b) =>  b.unitPrice - a.unitPrice)
 
-console.log(sortTotal)
-console.log(sortTotal[4])
+// console.log(sortTotal)
+// console.log(sortTotal[4])
+
+let allTypes = Array.from(new Set(sales.map( x => x.type)))
+
+allTypes
