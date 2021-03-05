@@ -1,5 +1,7 @@
 // https://stackoverflow.com/questions/7763327/how-to-calculate-date-difference-in-javascript
 
+// หาระยะห่างระหว่าง 2 วันที่ โดยหน่วยเป็น วัน,ชั่วโมง,นาที,วินาที..
+
 let d1=new Date(2021,0,1); 
 let d2=new Date(); // now
 
